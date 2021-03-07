@@ -93,8 +93,6 @@ public class MadLibScript : MonoBehaviour
     void Start()
     {
         GameManager gm = GameManager.instance;
-        // TODO: Make sure this is set in a previous scene!
-        gm.gameState.numberOfSocks = 1;
         gm.gameState.script = GetMadLib(gm.gameState.numberOfSocks);
         
         hintText.text = GetCurrentHint();
