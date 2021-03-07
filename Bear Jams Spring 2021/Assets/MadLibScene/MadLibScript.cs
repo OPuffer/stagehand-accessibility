@@ -24,6 +24,7 @@ public class MadLibScript : MonoBehaviour
         int lib = Random.Range(0, 5);
         
         GameManager gm = GameManager.instance;
+        return "";
         //gm.gameState
     }
     
@@ -35,7 +36,7 @@ public class MadLibScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hint_text.text = GetCurrentHint();
+        hintText.text = GetCurrentHint();
     }
 
     // Update is called once per frame
