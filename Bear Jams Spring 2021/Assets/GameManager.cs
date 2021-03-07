@@ -20,8 +20,11 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+        GameManager.instance.gameState.numberOfSocks = Random.Range(1, 3);
     }
 
+    
+    
     public void LoadMain()
     {
         SceneManager.LoadScene("MainMenu");

@@ -20,6 +20,10 @@ public class AssemblyPanel : MonoBehaviour
     private GameObject m_itemBucket;
 
     [SerializeField] private Transform grid;
+
+    [SerializeField] private GameObject m_SockPrototype;
+    [SerializeField] private Vector3 m_SockPosition = new Vector3(-3.5f, 0, 0);
+    
     
     #endregion
 
@@ -86,7 +90,8 @@ public class AssemblyPanel : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        cr_Sock = GameObject.FindWithTag("Sock");
+
+        cr_Sock = Instantiate(m_SockPrototype, m_SockPosition, Quaternion.identity);
         this.p_selected = 0;
         this.p_FeatureIndex = 1; //sock is 1 by accident ok
         //create the items in the panel
@@ -147,6 +152,7 @@ public class AssemblyPanel : MonoBehaviour
         DontDestroyOnLoad(cr_Sock);
         GameState gs = GameManager.instance.gameState;
         gs.socks.Add(cr_Sock);
+        HideSock();
         if (gs.socks.Count == gs.numberOfSocks)
         {
             GameManager.instance.LoadScriptWriter();
@@ -154,6 +160,14 @@ public class AssemblyPanel : MonoBehaviour
         else
         {
             GameManager.instance.LoadAssembly();
+        }
+    }
+
+    void HideSock()
+    {
+        foreach (SpriteRenderer sr in cr_Sock.GetComponentsInChildren<SpriteRenderer>())
+        {
+            sr.enabled = false;
         }
     }
 

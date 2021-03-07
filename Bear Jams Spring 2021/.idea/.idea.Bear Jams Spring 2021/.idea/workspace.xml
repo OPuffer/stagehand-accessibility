@@ -20,24 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/Sock Puppet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/Sock Puppet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FinalScene/PuppetWobble.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FinalScene/PuppetWobble.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/MainMenuScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/MainMenuScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/assembled_puppet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/assembled_puppet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/stagebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/stagebg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +46,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/SockController.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/ScriptSelector.cs" />
         <option value="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
       </list>
     </option>
   </component>
