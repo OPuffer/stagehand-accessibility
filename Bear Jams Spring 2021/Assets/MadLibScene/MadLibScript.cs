@@ -44,6 +44,8 @@ public class MadLibScript : MonoBehaviour
                 return currentHint;
             }
         }
+
+        currentHint = "";
         return "";
     }
 
