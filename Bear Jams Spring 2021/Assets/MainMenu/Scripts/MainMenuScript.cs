@@ -17,6 +17,11 @@ public class MainMenuScript : MonoBehaviour
         gm.LoadAssembly();
     }
 
+    public void LoadCredits()
+    {
+        GameManager.instance.LoadCredits();
+    }
+
     // Update is called once per frame
     void Update()
     {
