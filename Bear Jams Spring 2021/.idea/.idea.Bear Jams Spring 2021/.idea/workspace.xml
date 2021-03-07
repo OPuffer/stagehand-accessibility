@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FinalScene/FinalScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FinalScene/FinalScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +90,7 @@
       <workItem from="1615069866979" duration="4732000" />
       <workItem from="1615082970689" duration="2989000" />
       <workItem from="1615138124128" duration="574000" />
-      <workItem from="1615142200207" duration="2285000" />
+      <workItem from="1615142200207" duration="2367000" />
     </task>
     <servers />
   </component>
