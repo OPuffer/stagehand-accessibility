@@ -30,7 +30,8 @@ public class FinalSceneScript : MonoBehaviour
         }
         else
         {
-            // TODO: Go back to main menu? Not sure.   
+            // Game's done.
+            GameManager.instance.LoadMain();
         }
     }
 
