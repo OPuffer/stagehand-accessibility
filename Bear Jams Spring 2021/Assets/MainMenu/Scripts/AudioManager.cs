@@ -9,7 +9,6 @@ public class AudioManager : MonoBehaviour
     private static readonly Queue<AudioSource> idleAudios = new Queue<AudioSource>(5);
     private static int busyCount;
     private AudioSource BgSource;
-    public AudioClip soundAffectMenu;
     public AudioClip soundAffectGame;
     
     private void Awake()
@@ -23,13 +22,14 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
+        Debug.Log("AWOKEN!");
     }
 
     // Start is called before the first frame update
     void Start()
     {
         manager.StartGameSound();
+        Debug.Log("started");
     }
 
 
