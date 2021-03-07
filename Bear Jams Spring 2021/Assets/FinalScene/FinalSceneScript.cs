@@ -17,13 +17,16 @@ public class FinalSceneScript : MonoBehaviour
         if (currentLine < script.Count)
         {
             // Stop wobbling the old puppet.
-            GameManager.instance.gameState.socks[currentLine % GameManager.instance.gameState.numberOfSocks]
-                .GetComponent<Animator>().Play("Nothing");
+            //GameManager.instance.gameState.socks[currentLine % GameManager.instance.gameState.numberOfSocks]
+                //.GetComponent<Animator>().Play("Nothing");
             
             // Set the new text and start wobbling the new puppet.
-            tempTbox.text = script[currentLine];
-            GameManager.instance.gameState.socks[currentLine % GameManager.instance.gameState.numberOfSocks]
-                .GetComponent<Animator>().Play("PuppetWobble");
+            Debug.Log(script);
+            Debug.Log(currentLine);
+            Debug.Log(tempTbox);
+            tempTbox.SetText(script[currentLine]);
+            //GameManager.instance.gameState.socks[currentLine % GameManager.instance.gameState.numberOfSocks]
+                //.GetComponent<Animator>().Play("PuppetWobble");
             
             // Increment line counter.
             currentLine += 1;
