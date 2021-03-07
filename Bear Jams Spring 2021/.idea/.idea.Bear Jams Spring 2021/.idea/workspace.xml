@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/Sock Puppet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/Sock Puppet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FinalScene/PuppetWobble.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FinalScene/PuppetWobble.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/ScriptSelector.cs" />
         <option value="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuScript.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +99,7 @@
       <workItem from="1615082970689" duration="2989000" />
       <workItem from="1615138124128" duration="574000" />
       <workItem from="1615142200207" duration="1487000" />
+      <workItem from="1615150804133" duration="54000" />
     </task>
     <servers />
   </component>
@@ -121,5 +122,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="610" y="141" width="672" height="678" key="search.everywhere.popup" timestamp="1615150848055">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="610" y="141" width="672" height="678" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1615150848055" />
   </component>
 </project>

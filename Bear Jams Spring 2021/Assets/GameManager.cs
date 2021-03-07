@@ -44,6 +44,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("FinalScene");
     }
-    
+
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
     
 }
