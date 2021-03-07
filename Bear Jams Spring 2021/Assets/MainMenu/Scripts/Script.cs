@@ -12,12 +12,12 @@ public class Script
         {
             new List<string>
             {
-                "Hi I am puppet one. [noun] [-ed verb] an [adjective] [noun].",
+                "Hi I am puppet one. [noun] [-ed verb] a [adjective] [noun].",
                 "This is the second line. I like [plural noun]."
             },
             new List<string>()
             {
-                "This is another script for puppet one. [noun] [-ed verb] an [adjective] [noun].",
+                "This is another script for puppet one. [noun] [-ed verb] a [adjective] [noun].",
                 "This is the alternate second line. I eat [food]."
             },
         },

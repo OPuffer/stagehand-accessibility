@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadFinal()
     {
-        
+        SceneManager.LoadScene("FinalScene");
     }
     
     

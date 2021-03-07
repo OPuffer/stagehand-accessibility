@@ -44,6 +44,8 @@ public class MadLibScript : MonoBehaviour
                 return currentHint;
             }
         }
+
+        currentHint = "";
         return "";
     }
 
@@ -72,7 +74,7 @@ public class MadLibScript : MonoBehaviour
         String replacement = inputField.text;
         SetCurrentHint(replacement);
         GetCurrentHint();
-        if (currentHint == "")
+        if (currentHint.Length == 0)
         {
             GameManager gm = GameManager.instance;
             gm.LoadFinal();

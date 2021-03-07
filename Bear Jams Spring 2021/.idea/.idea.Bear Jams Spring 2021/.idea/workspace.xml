@@ -21,22 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FinalScene/FinalScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FinalScene/FinalScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/MainMenuScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/MainMenuScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/assembled_puppet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/assembled_puppet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/stagebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/stagebg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +48,11 @@
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/SockController.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/ScriptSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +99,7 @@
       <workItem from="1615069866979" duration="4732000" />
       <workItem from="1615082970689" duration="2989000" />
       <workItem from="1615138124128" duration="574000" />
-      <workItem from="1615142200207" duration="1487000" />
+      <workItem from="1615142200207" duration="2285000" />
     </task>
     <servers />
   </component>
