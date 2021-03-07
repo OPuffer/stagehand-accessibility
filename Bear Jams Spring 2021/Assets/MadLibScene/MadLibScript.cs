@@ -100,6 +100,14 @@ public class MadLibScript : MonoBehaviour
         hintText.text = GetCurrentHint();
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown("enter"))
+        {
+            OnClickNext();
+        }
+    }
+
     #endregion
     
 }
