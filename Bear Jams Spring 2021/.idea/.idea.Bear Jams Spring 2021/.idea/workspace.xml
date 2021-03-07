@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +35,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Assembly Scene/SockController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Assembly Scene/SockController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyItem.cs" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1615050628664</updated>
       <workItem from="1615050669305" duration="459000" />
+      <workItem from="1615069866979" duration="4732000" />
+      <workItem from="1615082970689" duration="2116000" />
     </task>
     <servers />
   </component>
@@ -96,6 +109,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
