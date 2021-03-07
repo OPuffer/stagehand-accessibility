@@ -21,7 +21,10 @@ public class FinalSceneScript : MonoBehaviour
                 .GetComponent<Animator>().Play("Nothing");
             
             // Set the new text and start wobbling the new puppet.
-            tempTbox.text = script[currentLine];
+            Debug.Log(script);
+            Debug.Log(currentLine);
+            Debug.Log(tempTbox);
+            tempTbox.SetText(script[currentLine]);
             GameManager.instance.gameState.socks[currentLine % GameManager.instance.gameState.numberOfSocks]
                 .GetComponent<Animator>().Play("PuppetWobble");
             
