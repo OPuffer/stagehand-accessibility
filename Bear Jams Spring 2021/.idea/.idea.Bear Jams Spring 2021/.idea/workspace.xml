@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Assembly.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MadLibScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MadLibScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +46,12 @@
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/SockController.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyItem.cs" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/ScriptSelector.cs" />
         <option value="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/MainMenuScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenu/Scripts/Script.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +99,7 @@
       <workItem from="1615082970689" duration="2989000" />
       <workItem from="1615138124128" duration="574000" />
       <workItem from="1615142200207" duration="1487000" />
-      <workItem from="1615150804133" duration="54000" />
+      <workItem from="1615150804133" duration="1090000" />
     </task>
     <servers />
   </component>
