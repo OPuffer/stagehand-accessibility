@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -87,7 +88,7 @@ public class AssemblyPanel : MonoBehaviour
         }
         cr_Sock = GameObject.FindWithTag("Sock");
         this.p_selected = 0;
-        this.p_FeatureIndex = 0;
+        this.p_FeatureIndex = 1; //sock is 1 by accident ok
         //create the items in the panel
         Clear();
         Fill();
@@ -102,7 +103,7 @@ public class AssemblyPanel : MonoBehaviour
     {
         this.p_selected = index;
         GameObject featurePrefab = cr_Sock.GetComponent<SockController>().featurePrefabs[p_FeatureIndex];
-        featurePrefab.GetComponent<SpriteRenderer>().sprite = m_items[p_FeatureIndex].featureList[index].m_PuppetSprite;
+        featurePrefab.GetComponent<SpriteRenderer>().sprite = m_items[p_FeatureIndex].featureList[index].m_PanelImage;
         
     }
 
@@ -132,7 +133,7 @@ public class AssemblyPanel : MonoBehaviour
         {
             GameObject itemBucket = Instantiate(m_itemBucket, grid, false);
             AssemblyItem script = itemBucket.GetComponent<AssemblyItem>();
-            script.itemImage.sprite = items[i].m_PanelImage;
+            script.itemImage.sprite = items[i].m_PuppetSprite;
             script.index = i;
         }
     }
@@ -157,5 +158,6 @@ public class AssemblyPanel : MonoBehaviour
     }
 
     #endregion
+    
     
 }
