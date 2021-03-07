@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208c307b-cac6-49e9-95af-83a3656b0b8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bear Jams Spring 2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/Assembly.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/Assembly.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyItem.cs" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Assembly Scene/AssemblyPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/MadLibScene/MadLibScript.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +88,8 @@
       <updated>1615050628664</updated>
       <workItem from="1615050669305" duration="459000" />
       <workItem from="1615069866979" duration="4732000" />
-      <workItem from="1615082970689" duration="2702000" />
+      <workItem from="1615082970689" duration="2989000" />
+      <workItem from="1615138124128" duration="47000" />
     </task>
     <servers />
   </component>
