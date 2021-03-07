@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,23 +24,17 @@ public class GameManager : MonoBehaviour
 
     public void LoadMain()
     {
-        
+        SceneManager.LoadScene("MainMenu");
     }
-
-    public void LoadTutorial()
-    {
-        
-    }
-
 
     public void LoadAssembly()
     {
-        
+        SceneManager.LoadScene("Assembly");
     }
 
     public void LoadScriptWriter()
     {
-        
+        SceneManager.LoadScene("MadLibScene");
     }
 
     public void LoadFinal()

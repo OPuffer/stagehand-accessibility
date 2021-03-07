@@ -17,50 +17,18 @@ public class MadLibScript : MonoBehaviour
     [SerializeField]
     private TMP_InputField inputField;
     #endregion
-
+    
     List<String> GetMadLib(int numPuppets)
     {
         // I'm so sorry.
-        List<List<List<String>>> scripts = new List<List<List<string>>>
-        {
-            // One puppet scripts
-            new List<List<string>>
-            {
-                new List<string>
-                {
-                    "Hi I am puppet one. [noun] [-ed verb] an [adjective] [noun].",
-                    "This is the second line. I like [plural noun]."
-                },
-                new List<string>()
-                {
-                    "This is another script for puppet one. [noun] [-ed verb] an [adjective] [noun].",
-                    "This is the alternate second line. I eat [food]."
-                },
-            },
-            
-            // Two puppet scripts
-            new List<List<string>>
-            {
-                new List<string>
-                {
-                    "Hi I am puppet one. [noun].",
-                    "This line should be said by the other puppet. [word].",
-                    "Nice this is puppet one again!"
-                },
-                new List<string>()
-                {
-                    "Second two-puppet script. [noun]",
-                    "ehlo again [verb]",
-                },
-            },
-        };
-
-        List<List<String>> selectedScripts = scripts[numPuppets - 1];
+        List<List<String>> selectedScripts = Script.scripts[numPuppets - 1];
         List<String> randomScript = selectedScripts[Random.Range(0, selectedScripts.Count)];
 
         return randomScript;
     }
-    
+
+    #region Current Hint Methods
+
     String GetCurrentHint()
     {
         GameManager gm = GameManager.instance;
@@ -95,6 +63,10 @@ public class MadLibScript : MonoBehaviour
         }
     }
 
+    #endregion
+
+    #region UI Methods
+
     public void OnClickNext()
     {
         String replacement = inputField.text;
@@ -112,7 +84,10 @@ public class MadLibScript : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
+    #endregion
+
+    #region Instantiation Methods
+
     void Start()
     {
         GameManager gm = GameManager.instance;
@@ -123,9 +98,6 @@ public class MadLibScript : MonoBehaviour
         hintText.text = GetCurrentHint();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    #endregion
+    
 }
