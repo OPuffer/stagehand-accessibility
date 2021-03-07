@@ -11,7 +11,8 @@ public class FinalSceneScript : MonoBehaviour
 
     private int currentLine = 0;
     private List<String> script;
-    
+    [SerializeField] private List<Vector3> positions;
+
     int mod(int x, int m) {
         return (x%m + m)%m;
     }
@@ -47,20 +48,22 @@ public class FinalSceneScript : MonoBehaviour
     void Start()
     {
         script = GameManager.instance.gameState.script;
-        bool t = false;
-        
+        int i = 0;
         foreach (GameObject sock in GameManager.instance.gameState.socks)
         {
             //sock.GetComponent<SpriteRenderer>().enabled = true;
             foreach (SpriteRenderer sr in sock.GetComponentsInChildren<SpriteRenderer>()) {
                 sr.enabled = true;
             }
-            if (t)
+
+            sock.transform.position = positions[i];
+            sock.transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+            if (i == 1)
             {
-                sock.transform.position = new Vector3(500, 0, 0);
+                Vector3 curr = sock.transform.localScale;
+                sock.transform.localScale = new Vector3(-curr.x, curr.y, curr.z);
             }
-            
-            t = !t;
+            i++;
         }
 
         ShowNextLine();

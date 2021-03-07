@@ -151,6 +151,7 @@ public class AssemblyPanel : MonoBehaviour
     {
         DontDestroyOnLoad(cr_Sock);
         GameState gs = GameManager.instance.gameState;
+        Debug.Log(gs.numberOfSocks);
         gs.socks.Add(cr_Sock);
         HideSock();
         if (gs.socks.Count == gs.numberOfSocks)
@@ -161,6 +162,7 @@ public class AssemblyPanel : MonoBehaviour
         {
             GameManager.instance.LoadAssembly();
         }
+        
     }
 
     void HideSock()
