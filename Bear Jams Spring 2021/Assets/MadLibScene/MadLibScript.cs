@@ -54,14 +54,10 @@ public class MadLibScript : MonoBehaviour
         GameManager gm = GameManager.instance;
         
         // Assumes well-formatted strings, UB otherwise.
+        var regex = new Regex(Regex.Escape(currentHint));
         for (int i = 0; i < gm.gameState.script.Count; i++)
         {
-            int idx = gm.gameState.script[i].IndexOf("[");
-            if (idx != -1)
-            {
-                var regex = new Regex(Regex.Escape(currentHint));
-                gm.gameState.script[i] = regex.Replace(gm.gameState.script[i], replacement, 1);
-            }
+            gm.gameState.script[i] = regex.Replace(gm.gameState.script[i], replacement);
         }
     }
 
