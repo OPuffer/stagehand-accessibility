@@ -40,6 +40,11 @@ public class FinalSceneScript : MonoBehaviour
         else
         {
             // Game's done.
+            foreach (GameObject sock in GameManager.instance.gameState.socks)
+            {
+                Destroy(sock);
+                GameManager.instance.Restart();
+            }
             GameManager.instance.LoadMain();
         }
     }
