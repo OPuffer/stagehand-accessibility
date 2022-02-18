@@ -817,7 +817,7 @@ MonoBehaviour:
   m_PrefixIsLocalizationKey: 0
   m_PrefixIsPostFix: 0
   m_FilterText: 1
-  m_Text: Stage Hand
+  m_Text: Hello
   m_NameLabel: {fileID: 0}
   m_AdditionalNameLabels: []
   m_TestList: []
