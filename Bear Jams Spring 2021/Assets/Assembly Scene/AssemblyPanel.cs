@@ -41,6 +41,8 @@ public class AssemblyPanel : MonoBehaviour
         [SerializeField] [Tooltip("The image to be used in the panel")]
         public Sprite m_PanelImage;
 
+        [SerializeField] [Tooltip("The Description of the item")]
+        public string m_PanelDesc;
     }
 
     [Serializable]
@@ -140,6 +142,7 @@ public class AssemblyPanel : MonoBehaviour
             AssemblyItem script = itemBucket.GetComponent<AssemblyItem>();
             script.itemImage.sprite = items[i].m_PuppetSprite;
             script.index = i;
+            script.itemText.text = items[i].m_PanelDesc;
         }
     }
 

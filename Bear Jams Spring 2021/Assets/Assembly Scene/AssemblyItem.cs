@@ -7,6 +7,7 @@ public class AssemblyItem : MonoBehaviour
 {
 
     public Image itemImage;
+    public Text itemText;
     
     [Header("Configs, don't edit")]
     public int index;
