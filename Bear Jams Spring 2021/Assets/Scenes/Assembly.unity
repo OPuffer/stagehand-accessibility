@@ -1569,7 +1569,7 @@ MonoBehaviour:
     - name: tongue
       m_PuppetSprite: {fileID: 21300000, guid: a2730821001ce47c69bd6e26c19e063a, type: 3}
       m_PanelImage: {fileID: 21300000, guid: 4b629d28d2046420f8b158ed30040b32, type: 3}
-      m_PanelDesc: make puppet stick tounge out
+      m_PanelDesc: make puppet stick tongue out
     - name: mustache
       m_PuppetSprite: {fileID: 21300000, guid: a9e015124868a42d7a610f70c7334c89, type: 3}
       m_PanelImage: {fileID: 21300000, guid: 87ec4bfc2ad75410f91ffd38854ee030, type: 3}
@@ -1709,7 +1709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 390.6, y: 16.4}
+  m_AnchoredPosition: {x: 390.6001, y: 16.399902}
   m_SizeDelta: {x: 169.4209, y: 92.30762}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1648159168
